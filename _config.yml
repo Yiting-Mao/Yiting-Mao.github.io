@@ -35,3 +35,5 @@ sass:
 include: ['_pages']
 kramdown:
   input: GFM
+disqus:
+  shortname: yiting-mao

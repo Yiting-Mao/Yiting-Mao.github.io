@@ -9,6 +9,7 @@ During the study of rails development, at some point, you may need to deploy it 
 Reference: [Bryce's instruction][bryce-instruction], AWS documents
 
 * * *
+
 ### 1. Launch an EC2 instance ###
 
 
@@ -24,6 +25,7 @@ Reference: [Bryce's instruction][bryce-instruction], AWS documents
 Note: instance type, security group, ssh source can be modified according to the needs
 
 * * *
+
 ### 2. SSH to your instance with your key pair ###
 
 
@@ -32,6 +34,7 @@ Note: instance type, security group, ssh source can be modified according to the
 3. `ssh -i yourkeypair.pem ec2-user@your_public_DNS`
 
 * * *
+
 ### 3. Set up environment ###
 
 #### 1. Install the Elastic Beanstalk Command Line Interface (EB CLI) ####
@@ -76,6 +79,7 @@ Replace DEPLOYMENT_NAME with a unique name for your deployment. Consider teamnam
 Replace RANDOM_SECRET with some semi-random large string of alphanumeric characters. Note, for real sites you want this to be really random as your cookies are signed/encrypted using a key derived from this string.
 
 Hit enter and type in password(at least 8 letters' long)
+
 
 [bidder-github]: https://github.com/scalableinternetservices/Bidder
 [bryce-instruction]: https://github.com/scalableinternetservices/demo_rails5_beanstalk
