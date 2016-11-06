@@ -37,3 +37,5 @@ kramdown:
   input: GFM
 disqus:
   shortname: yiting-mao
+
+google_analytics: UA-86946871-1
